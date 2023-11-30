@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+
+
+    <!-- JavaScript -->
+    <script src="../js/script.js" defer></script>
+    <script src="../js/singleMovie.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <title>Diversity in Disney - Aladdin</title>
+</head>
+
+
+<body>
+
+    <main>
+
+        <section id="singlePage">
+            <div class="linkBack">
+                <a href="/index.html" class="arrowIcon"><img src="/img/arrow.svg" alt="" id="imgArrow"></a>
+            </div>
+
+            <div class="inhaltSinglePage" data-aos="fade-up">
+
+                <h1 id="heroTitle"></h1>
+
+                <div class="movieInformation">
+                    <p id="releaseDate"></p>
+                    <p>|</p>
+                    <p id="runtime"></p>
+                </div>
+
+                <div class="movieOverview">
+                    <p id="overview"></p>
+                </div>
+
+                <div class="divLinks">
+
+                    <div class="button">
+                        <a class="buttonLink" href="https://www.youtube.com/watch?v=eTjHiQKJUDY"
+                            target="_blank">Watch Trailer</a>
+                    </div>
+                    <div class="down-arrow bounce">
+                        <a href="#diversity"><img src="/img/arrow.svg" alt="" id="img-down-arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="diversity" id="diversity" data-aos="fade-up">
+            <div class="textDiversity">
+                <h2>Diversity</h2>
+                <p>
+                    This enchanting story is set in the vibrant marketplace of the fictional city of Agrabah on the Arabian Peninsula and captures the exotic charm of this region. Behind the film's colourful façade lie profound themes such as love, identity and the search for fulfilment.
+Aladdin's transformative journey from a "diamond in the rough" to a selfless hero speaks to anyone who has ever felt like an outsider. Disney's tale encourages global compassion by showing that dreams can be realised regardless of cultural boundaries and that generosity is a universal virtue.
+                </p>
+                <br>
+                <p class="quelle">
+                    Quelle: https://gamerant.com/best-disney-movies-celebrating-diversity/#aladdin-1992
+                </p>
+            </div>
+
+            <img src="" alt="" id="imgDiversity">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footerLogo">
+            <a href="/index.html"><img src="/img/logo.svg" alt="" class="footerlogo"></a>
+        </div>
+        <p>This Site uses the <a id="footerlink" href="https://developer.themoviedb.org/reference/intro/getting-started">TMBD API</a>.</p>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            AOS.init({
+                duration: 2000,
+                delay: 500
+            });
+            fillPage(7);
+        })
+    </script>
+
+</body>
+
+</html>

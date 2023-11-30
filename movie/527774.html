@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+
+
+    <!-- JavaScript -->
+    <script src="../js/script.js" defer></script>
+    <script src="../js/singleMovie.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <title>Diversity in Disney - Raya and the last Dragon</title>
+</head>
+
+
+<body>
+
+    <main>
+
+        <section id="singlePage">
+            <div class="linkBack">
+                <a href="/index.html" class="arrowIcon"><img src="/img/arrow.svg" alt="" id="imgArrow"></a>
+            </div>
+
+            <div class="inhaltSinglePage" data-aos="fade-up">
+
+                <h1 id="heroTitle"></h1>
+
+                <div class="movieInformation">
+                    <p id="releaseDate"></p>
+                    <p>|</p>
+                    <p id="runtime"></p>
+                </div>
+
+                <div class="movieOverview">
+                    <p id="overview"></p>
+                </div>
+
+                <div class="divLinks">
+
+                    <div class="button">
+                        <a class="buttonLink" href="https://youtu.be/1VIZ89FEjYI?si=1-qOm1OSNQPN3uWO"
+                            target="_blank">Watch Trailer</a>
+                    </div>
+                    <div class="down-arrow bounce">
+                        <a href="#diversity"><img src="/img/arrow.svg" alt="" id="img-down-arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="diversity" id="diversity" data-aos="fade-up">
+            <div class="textDiversity">
+                <h2>Diversity</h2>
+                <p>
+                    The film not only offers a rich and culturally diverse fantasy world inspired by Southeast Asian
+                    cultures, but also features a strong and resilient female protagonist, Raya. The characters in the
+                    film come from different regions and each have their own customs and traditions, creating a mosaic
+                    of diversity. Furthermore, the story emphasises the importance of unity and cooperation across
+                    different backgrounds to overcome challenges and sends a strong message about the strength that lies
+                    in embracing differences.
+                </p>
+                <br>
+                <p class="quelle">
+                    Quelle: ChatGPT
+                </p>
+            </div>
+
+            <img src="" alt="" id="imgDiversity">
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footerLogo">
+            <a href="/index.html"><img src="/img/logo.svg" alt="" class="footerlogo"></a>
+        </div>
+        <p>This Site uses the <a id="footerlink"
+                href="https://developer.themoviedb.org/reference/intro/getting-started">TMBD API</a>.</p>
+    </footer>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            AOS.init({
+                duration: 2000,
+                delay: 500
+            });
+            fillPage(9);
+        })
+    </script>
+
+</body>
+
+</html>

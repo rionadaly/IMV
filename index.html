@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="/js/script.js" defer></script>
+
+    <title>Diversity in Disney - Home</title>
+</head>
+
+<body>
+
+    <section class="homeHeaderImage" id="homeHeaderImage">
+        <img src="/img/logo.svg" alt="" class="logo">
+        <div class="down-arrow" id="arrowMainPage">
+            <a href="#intro" class="bounce"><img src="/img/arrow.svg" alt="" id="img-down-arrow"></a>
+        </div>
+    </section>
+    <main class="mainPage">
+
+
+        <div class="intro" id="intro">
+            <h1 class="titleMain">DIVERSITY IN DISNEY</h1>
+            <p class="introText">
+                Embark on a Disney journey celebrating diversity, where enchanting tales break down barriers between
+                people of different backgrounds. These films showcase the power of storytelling to celebrate the unique
+                qualities that make us all human.
+            </p>
+        </div>
+
+        <h2 id="h2main">MOVIES CELEBRATING DIVERSITY</h2>
+        <div class="kacheln" id="kachelnWrapper">
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="footerLogo">
+            <a href="/index.html"><img src="/img/logo.svg" alt="" class="footerlogo"></a>
+        </div>
+        <p>This Site uses the <a id="footerlink"
+                href="https://developer.themoviedb.org/reference/intro/getting-started">TMBD API</a>.</p>
+
+
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            displayCards();
+        })
+    </script>
+
+</body>
+
+</html>
