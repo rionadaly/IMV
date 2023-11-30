@@ -10,7 +10,7 @@ Als erster Schritt habe ich mir überlegt, wie ich die ausgewählten Filme mögl
 Das ganze Prohekt war eine Herausforderung für mich, vor allem, weil ich die Programmiersprachen eine Weile nicht mehr aktiv genutzt hatte. Insbesondere bei JavaScript und der Verwendung von APIs musste ich auf älteres Schulmaterial und Unterstützung von Schulkollegen und Dozenten zurückgreifen. Letztendlich konnte ich aber auch das mit Hilfe bewältigen. Beim Desing hatte ich weniger Schwierigkeiten, da ich mich recht schnell wieder in CSS einarbeiten konnte. Trotzdem musste ich gelegentlich auf Ressourcen wie W3Schools zurückgreifen. Insgesamt hat mir das Projekt sehr viel Spass gemacht.
 
 ## Quellen
-• ChatGPT
-• W3Schools
-• Digital Ocean: A Complete Guide to Flexbox
-• Altes Schulmaterial
+- ChatGPT
+- W3Schools
+- Digital Ocean: A Complete Guide to Flexbox
+- Altes Schulmaterial
