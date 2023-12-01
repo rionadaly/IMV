@@ -6,7 +6,7 @@ async function getMovieDetails(movieID) {
         method:'get',
         headers:{
             accept:'application/json',
-            Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiZjZkNzNmYzIyZjUxZjc1NGQ3NjY5OTg3OThjNzE0MSIsInN1YiI6IjY1MzY1NDNjYzhhNWFjMDBlMmI3ZWY0MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mfRdF7UFf82IrIspCXt1iL-bFdUmIg8pTSQeeslvu5Y`
+            Authorization: `Bearer ...`
         }
     });
     const data = await response.json();
